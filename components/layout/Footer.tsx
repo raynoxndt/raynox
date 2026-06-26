@@ -107,15 +107,14 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={15} className="text-[#C8991A] mt-0.5 flex-shrink-0" />
                 <span className="text-white/60 text-sm leading-relaxed">
-                  123 Industrial Park Drive<br />
-                  Suite 400, Houston, TX 77001<br />
-                  United States
+                  Kerala<br />
+                  India
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={15} className="text-[#C8991A] flex-shrink-0" />
-                <a href="tel:+1234567890" className="text-white/60 text-sm hover:text-[#C8991A] transition-colors">
-                  +1 (234) 567-890
+                <a href="tel:+918136997734" className="text-white/60 text-sm hover:text-[#C8991A] transition-colors">
+                  +91 81369 97734
                 </a>
               </li>
               <li className="flex items-center gap-3">
