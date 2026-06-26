@@ -90,7 +90,7 @@ export default function ContactPage() {
                           href="tel:+918136997734"
                           className="text-white text-sm font-medium hover:text-[#C8991A] transition-colors"
                         >
-                          +1 (234) 567-890
+                          +91 81369 97734
                         </a>
                         <p className="text-white/40 text-xs mt-0.5">
                           Mon–Fri, 8:00 AM – 6:00 PM
@@ -127,10 +127,7 @@ export default function ContactPage() {
                           Address
                         </p>
                         <p className="text-white text-sm leading-relaxed">
-                          123 Industrial Park Drive<br />
-                          Suite 400<br />
-                          Houston, TX 77001<br />
-                          United States
+                          Kerala,India<br />
                         </p>
                       </div>
                     </div>
@@ -145,8 +142,7 @@ export default function ContactPage() {
                         </p>
                         <div className="text-white text-sm space-y-0.5">
                           <p>Mon – Fri: 8:00 AM – 6:00 PM</p>
-                          <p className="text-white/50">Saturday: 9:00 AM – 1:00 PM</p>
-                          <p className="text-white/40">Sunday: Closed</p>
+                          <p className="text-white/50">Saturday,Sunday: 9:00 AM – 5:00 PM</p>
                         </div>
                       </div>
                     </div>
@@ -218,7 +214,7 @@ export default function ContactPage() {
               <MapPin size={28} className="text-[#C8991A]" />
             </div>
             <p className="text-[#0A2342] font-bold text-sm">
-              123 Industrial Park Drive, Houston, TX 77001
+             Kerala,India
             </p>
             <p className="text-[#64748B] text-xs mt-1">
               Interactive map — embed your Google Maps API here
