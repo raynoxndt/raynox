@@ -1,9 +1,9 @@
 "use client";
-
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X, ChevronDown, Phone } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -56,19 +56,8 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="flex items-center gap-2">
-              {/* Logo mark */}
-              <div className="w-9 h-9 bg-[#C8991A] rounded-sm flex items-center justify-center flex-shrink-0">
-                <span className="text-[#0A2342] font-black text-lg tracking-tighter">R</span>
-              </div>
-              <div className="flex flex-col leading-none">
-                <span className="text-white font-bold text-base tracking-wide">RAYNOX</span>
-                <span className="text-[#C8991A] text-[10px] tracking-[0.2em] font-medium uppercase">
-                  NDT Solutions
-                </span>
-              </div>
-            </div>
+          <Link href="/">
+            <Image src="/logo.png" alt="Raynox NDT Solutions" width={140} height={46} priority />
           </Link>
 
           {/* Desktop nav links */}
