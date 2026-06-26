@@ -9,8 +9,8 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/products", label: "Products" },
   { href: "/brands", label: "Brands" },
-  { href: "/about", label: "About Us" },
-  { href: "/contact", label: "Contact" },
+  { : "/about", label: "About Us" },
+  { : "/contact", label: "Contact" },
 ];
 
 export default function Navbar() {
@@ -47,7 +47,7 @@ export default function Navbar() {
             className="flex items-center gap-1.5 text-[#C8991A] text-xs font-medium hover:text-[#E8B832] transition-colors"
           >
             <Phone size={11} />
-            +1 (234) 567-890
+            +91 81369 97734
           </a>
         </div>
       </div>
