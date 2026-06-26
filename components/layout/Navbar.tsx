@@ -57,7 +57,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/">
-            <Image src="/logo.png" alt="Raynox NDT Solutions" width={140} height={46} priority />
+            <Image src="/logo.png" alt="Raynox NDT Solutions" width={100} height={33} priority />
           </Link>
 
           {/* Desktop nav links */}
