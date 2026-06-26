@@ -43,7 +43,7 @@ export default function Navbar() {
             Professional NDT Equipment &amp; Inspection Solutions
           </p>
           <a
-            href="tel:+1234567890"
+            href="tel:+918136997734"
             className="flex items-center gap-1.5 text-[#C8991A] text-xs font-medium hover:text-[#E8B832] transition-colors"
           >
             <Phone size={11} />
